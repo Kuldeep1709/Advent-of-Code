@@ -32,7 +32,7 @@ The repository is organized day-wise, with each day named `Day1`, `Day2`, etc. E
 ## How to run the code
 ### Step 1 : Clone the repository
 ```
-git clone https://github.com/Kuldeep9071/Advent-of-Code-2024.git
+git clone https://github.com/Kuldeep1709/Advent-of-Code-2024.git
 ```
 ### Step 2 : Navigate to the file you want to run
   #### if you want your output on terminal then use
