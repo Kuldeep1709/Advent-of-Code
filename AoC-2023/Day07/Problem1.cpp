@@ -21,7 +21,7 @@ int handRank(const string &hand){
         vector<int> freq;
         for(const auto &ele: count) freq.push_back(ele.second);
 
-            sort(freq.begin(), freq.end());
+        sort(freq.begin(), freq.end());
 
         if(freq[0] == 1 && freq[1] == 1 && freq[2] == 3) return 4; // three of a kind
         if(freq[0] == 1 && freq[1] == 2 && freq[2] == 2) return 5; // two pair
