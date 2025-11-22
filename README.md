@@ -8,7 +8,7 @@ I try to solve each year's problem set using **different programming languages**
 Each year has its own directory, and solutions inside are written in the chosen language for that year.
 | Year     | 2025 | 2024 | 2023 | 2015 |
 |----------|------|------|------|------|
-| Language | TBD  | C++  | C++  | Python |
+| Language | Java  | C++  | C++  | Python |
 
 ---
 ## 🙂 ThankYou!
