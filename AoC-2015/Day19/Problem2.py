@@ -1,6 +1,6 @@
 # This Problem can be reduced to finding min number of stpes to generate a string
 # Given Context Free Grammar(CFG) in it Chomesky Normal Form(CNF)
-# We implemented this in our assignment so we used
+# We learned this in our automata and computability UG course.
 
 # ALGORITHM
 # 1. Convert the given input to CFG
