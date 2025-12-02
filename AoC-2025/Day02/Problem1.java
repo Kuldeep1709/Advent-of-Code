@@ -6,8 +6,7 @@ import java.util.ArrayList;
 class Range
 {
 
-    int minShift;
-    String prefix, left, right;
+    String left, right;
 
     Range (StringBuilder sb)
     {
@@ -16,12 +15,6 @@ class Range
         
         this.left = range.substring(0,idx);
         this.right = range.substring(idx+1);
-        
-        int index = 0;
-        while(index < left.length() && left.charAt(index) == right.charAt(index)) index++;
-
-        this.prefix = left.substring(0,index);
-        this.minShift = left.length() - prefix.length();
     }
 }
 
@@ -42,15 +35,7 @@ public class Problem1
                 long l = Long.parseLong(rng.left);
                 long r = Long.parseLong(rng.right);
 
-                for(long n = l; n <= r; n++){
-                    String suffix = Long.toString(n);
-                    while (suffix.length() < rng.minShift) suffix = "0" + suffix;
-
-                    long num = Long.parseLong(suffix);
-
-                    if (invalid(num)) ans += num;
-                }
-
+                for(long n = l; n <= r; n++) if (invalid(n)) ans += n;
             }
 
             System.out.println(ans);
